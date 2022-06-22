@@ -61,7 +61,7 @@ router.post("/login", async (req, res) => {
       return res
         .status(404)
         .json(
-          "User with the provided email doesnot exist, please create an account!"
+          "User with the provided email doesnot exist, please create an accoun"
         );
     }
 
